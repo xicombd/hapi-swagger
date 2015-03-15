@@ -2,7 +2,15 @@
 # Swagger-UI Modifications
 
 
-Although every effort has been made to use the Swagger UI without modification there are times where they are needed. This page was created to keeps tracks of the modifications made to each version used.  
+Although every effort has been made to use the Swagger UI without modification there are times where they are needed. This page was created to keeps tracks of the modifications made to each version used.
+
+
+
+# Testinator mods
+
+swagger-ui.js line 1777
+Added ajax call to OperationView.prototype.showCompleteStatus
+
 
 
 ## Version 2.0.19 (16-Feb-2015)
